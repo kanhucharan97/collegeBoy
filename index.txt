@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1><span class="lClr">C</span>ollege<span class="lClr">B</span>oys</h1>
+      <input type="text" class="text" placeholder="Search...." />
+
+      <div class="div">
+        <div class="sagar child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">S</span>agar
+              <span class="fLetter">S</span>wain
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="sagar.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="debasish child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">D</span>ebasish
+              <span class="fLetter">S</span>ethy
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="debasish.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="aditya child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">A</span>ditya
+              <span class="fLetter">A</span>charya
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="aditya.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="sReddy child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">S</span>agar
+              <span class="fLetter">R</span>eddy
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="sReddy.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="sBiswal child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">S</span>agar
+              <span class="fLetter">B</span>iswal
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="sBiswal.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="kanhu child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">K</span>anhu
+              <span class="fLetter">C</span>haran
+              <span class="fLetter">P</span>anigrahi
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="kanhu.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="krushna child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">K</span>rushna
+              <span class="fLetter">C</span>handra
+              <span class="fLetter">S</span>wain
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="krushna.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="siba child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">S</span>iba
+              <span class="fLetter">S</span>undar
+              <span class="fLetter">N</span>ahak
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="siba.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="sunil child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">S</span>unil
+              <span class="fLetter">K</span>umar
+              <span class="fLetter">G</span>ouda
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="sunil.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="gamanga child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">M</span>aheswar
+              <span class="fLetter">G</span>amanga
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="gamanga.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="rabi child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">R</span>abi
+              <span class="fLetter">K</span>umar
+              <span class="fLetter">S</span>wain
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="rabi.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="miku child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">M</span>iku
+              <span class="fLetter">K</span>umar
+              <span class="fLetter">S</span>wain
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="miku.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="sambhu child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">S</span>ambhu
+              <span class="fLetter">G</span>antayat
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="sambhu.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="jitendra child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">J</span>itendra
+              <span class="fLetter">S</span>ahu
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="jitendra.jpg" alt="" height="141px" />
+          </div>
+        </div>
+        <div class="sDash child">
+          <div class="tSect">
+            <h1>
+              <span class="fLetter">S</span>agar
+              <span class="fLetter">D</span>ash
+            </h1>
+            <h2>AS2018000</h2>
+          </div>
+          <div class="pSect">
+            <img src="sDash.jpg" alt="" height="141px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

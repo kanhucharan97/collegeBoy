@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  text-align: center;
+  /* height: 100vh; */
+  overflow-x: hidden;
+  width: 100vw;
+  text-transform: capitalize;
+}
+.text {
+  width: 70%;
+  border: 0;
+  margin-top: 2rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #555;
+  margin-bottom: 42px;
+}
+.text:focus {
+  outline: 0;
+}
+
+.container > h1 {
+  color: #555;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+.lClr {
+  color: #444;
+  font-size: 4rem;
+  font-family: 'Akronim', cursive;
+}
+.child {
+  height: 11rem;
+  /* width: 22rem; */
+  background: #555;
+  margin: 2rem;
+  border-radius: 20px;
+}
+.container .info {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(581px, 1fr));
+}
+.child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.pSect img {
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.tSect h1 {
+  font-family: 'Birthstone', cursive;
+}
+
+.tSect h1,
+.tSect h2 {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.child:hover {
+  transform: scale(1.05);
+}
+
+.fLetter {
+  font-family: 'Akronim', cursive;
+}
+
+.child.active .pSect img {
+  border-radius: 10px;
+  transform: scale(2);
+}
+
+.child.active .tSect h1,
+.child.active .tSect h2 {
+  transform: scale(2);
+  margin-bottom: 2rem;
+}
+
+.child.active {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+
+  left: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+@media (max-width: 1159px) {
+  .child.active {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}
