@@ -6,7 +6,7 @@ const boys = [
   { img: 'sBiswal', name: 'sagar biswal', roll: 'AS2018000' },
   { img: 'kanhu', name: 'kanhu charan panigrahi', roll: 'AS2018000' },
   { img: 'krushna', name: 'krushna chandra swain', roll: 'AS2018000' },
-  { img: 'siba', name: 'siba sundar sahak', roll: 'AS2018000' },
+  { img: 'siba', name: 'siba sundar nahak', roll: 'AS2018000' },
   { img: 'sunil', name: 'sunil kumar gouda', roll: 'AS2018000' },
   { img: 'gamanga', name: 'maheswar gamanga', roll: 'AS2018000' },
   { img: 'rabi', name: 'rabi kumar swain', roll: 'AS2018000' },
@@ -18,14 +18,28 @@ const boys = [
 
 window.addEventListener('DOMContentLoaded', () => {
   displayItems(boys)
+  eventer()
+  // input event listener
+  const text = document.querySelector('.text')
 
-  const children = document.querySelectorAll('.child')
+  text.addEventListener('keyup', (e) => {
+    const val = e.target.value.toLowerCase()
 
-  children.forEach((child) => {
-    child.addEventListener('click', () => {
-      child.classList.toggle('active')
-      console.log(child)
+    const filteredBoys = boys.filter((boy) => {
+      return boy.name.includes(val) || boy.roll.includes(val)
     })
+    // console.log(val)
+
+    displayItems(filteredBoys)
+
+    if (!val) {
+      displayItems(boys)
+    }
+    if (val) {
+      displayItems(filteredBoys)
+    }
+
+    eventer()
   })
 })
 
@@ -44,8 +58,7 @@ function displayItems(boyitems) {
             </h1>
             <h2>${item.roll}</h2>
           </div>
-         
-        </div>`
+       </div>`
   })
   boysInfo = boysInfo.join('')
   info.innerHTML = boysInfo
@@ -53,16 +66,15 @@ function displayItems(boyitems) {
 
 // console.log(boysInfo)
 
-// input event listener
-const text = document.querySelector('.text')
-
-text.addEventListener('keyup', (e) => {
-  const val = e.target.value.toLowerCase()
-
-  const filteredBoys = boys.filter((boy) => {
-    return boy.name.includes(val)
-  })
-  displayItems(filteredBoys)
-})
-
 // child event listener
+
+function eventer() {
+  const children = document.querySelectorAll('.child')
+
+  children.forEach((child) => {
+    child.addEventListener('click', () => {
+      child.classList.toggle('active')
+      console.log(child)
+    })
+  })
+}
